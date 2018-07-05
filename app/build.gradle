@@ -30,5 +30,6 @@ dependencies {
     implementation "com.google.android.gms:play-services-maps:$googlePlayVersion"
     implementation "com.google.android.gms:play-services-location:$googlePlayVersion"
     implementation "com.github.hotchemi:permissionsdispatcher:$permissionDispatcherVersion"
+    implementation 'com.google.maps.android:android-maps-utils:0.5+'
     annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:$permissionDispatcherVersion"
 }
